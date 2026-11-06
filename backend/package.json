@@ -1,0 +1,20 @@
+{
+  "name": "ai-voice-agent-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js + Express backend for the AI Voice Agent project",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "groq-sdk": "^1.6.0"
+  }
+}
